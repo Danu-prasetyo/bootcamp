@@ -1,0 +1,30 @@
+Review materi 08/05/2023
+1. Algoritma adalah langkah langkah dalam memecahkan suatu persoalan.
+
+2. Flowchart atau diagram alur merupakan metode untuk merepresentasikan sebuah alur 
+dalam suatu program.
+
+3. Variabel merupakan sebuah tempat untuk menampung suatu nilai. Untuk mendeklarasikan
+variabel pada javascript bisa menggunakan let, var, dan const.
+
+4. Tipe data pengelompokan data berdasarkan jenisnya. Dalam javascript data terbagi menjadi:
+- String  => let nama = "Ramlan"
+- Integer => let angka = 20
+- Float   => const phi = 3.14
+- array   => let array = ["Rendang", "Ayam Pop"]
+- object  => let address = {
+                city: "Tangerang",
+                country: "Indonesia"
+            }
+- null    => let dataKosong = null
+
+5. Konversi tipe data:
+- String to integer => let nomor = parseInt("0987654321")
+- String to float => let pecahan = parseFloat("2.25")
+- Integer to string => let angka = 12345
+                       console.log(angka.toString())
+
+6. Operator adalah simbol untuk melakukan operasi data
+- Operator aritmatika: +, -, *, /
+- Operator logika: &&, ||
+- operator perbandingan: ==, !=, ===, !==, <, >, <=, >= 

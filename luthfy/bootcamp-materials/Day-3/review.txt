@@ -1,0 +1,12 @@
+Review materi 10/05/2023
+1. Manipulasi Data
+
+2. Array Multidimensi
+
+3. Object
+
+4. Class
+
+5. For Loop
+
+6. Function

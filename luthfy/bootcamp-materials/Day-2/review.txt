@@ -1,0 +1,12 @@
+Review materi 09/05/2023
+1. If Else Statement
+
+2. Switch Case
+
+3. Ternary Operator
+
+4. While Loop
+
+5. For Loop
+
+6. Function
