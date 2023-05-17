@@ -1,0 +1,16 @@
+----- COMMAND GIT -----
+
+0. git config --list = Buat ngecek username + email yang terkonfigurasi di git
+1. git config --global user.name "username git" = konfigurasi username
+2. git config --global user.email "test@gmail.com" = konfigurasi email
+3. git clone (link repo) = buat clone repo
+4. git init = inisialisasi repo baru
+5. git add . = buat nambahin semua file yang mau di commit
+6. git status = buat ngecek apakah ada file yang di add dan akan di commit
+7. git commit -m "*keterangan" = buat commit file yang di add ke repo
+8. git branch (nama branch baru) = buat bikin branch baru
+9. git checkout (nama branch) = buat pindah pindah branch
+10. git merge (nama branch baru) = buat gabungin branch lain ke dalam branch master
+11. git remote add origin (link repo) = buat remote atau akses repo yang mau kita pakai
+12. git pull origin (nama branch) = buat narik perubahan file yang ada di branch
+13. git push origin (nama branch) = buat ngirim perubahan ke branch kita
