@@ -1,0 +1,69 @@
+slide 1 -pengenalan
+- setTimeout() adalah sebuah fungsi didalam javascript yang digunakan untuk menjalankan
+  suatu kode setelah jeda waktu tertentu.
+- fungsi ini berguna untuk mengatur waktu penundaan sebelum kode dijalankan pada bagian
+  tertentu dari program.
+
+slide 2 -sintaks
+- setTimeout() menerima dua parameter :
+   *sebuah fungsi yang akan dijalankan setelah jeda waktu tertentu.
+   *waktu jeda tersebut dalam milidetik (seribu kali lebih kecil dari satuan detik).
+- sintaks setTimeout :
+   setTimeout(fun, delay);
+
+slide 3 -penggunaan
+- function adalah fungsi yang akan dijalankan setelah waktu jeda tertentu, dan delay
+  adalah waktu jeda dalam milidetik sebelum fungsi tersebut dijalankan.
+- berikut adalah contoh penggunaan setTimeout untuk menjalankan sebuah fungsi setelah
+  jeda waktu tertentu:
+   c% : setTimeout(function() {
+          console.log("hello, world!")
+        }, 5000)
+
+  contoh diatas akan menampilkan pesan "hello, world!" pada konsol setelah jeda waktu
+  5 detik (5000 milidetik).
+
+slide 4 -membatalkan timeout
+- kita juga dapat membatalkan timeout yang sudah diatur sebelumnya menggunakan fungsi
+  clearTimeout.
+- clearTimeout menerima satu parameter yaitu timeoutID yang merupakan nilai yang 
+  dikembalikan oleh setTimeout.
+- berikut adalah contoh penggunaan clearTimeout untuk membatalkan timeout:
+   c% : var timeoutID = setTimeout(function() {
+         console.log("hello, world!")
+        }, 5000)
+        
+        clearTimeout(timeoutID)
+- contoh diatas akan membatalkan timeout yang telah diatur sebelumnya.
+
+
+
+kesimpulan
+	
+
+Dalam penggunaannya, fungsi set timeout sangat berguna dalam mengatur animasi, 
+melakukan tugas asinkronus, dan mengatur interval waktu untuk melakukan pengulangan
+tugas tertentu pada interval tertentu.
+
+Namun, perlu diingat bahwa set timeout bukan merupakan jaminan bahwa fungsi akan
+dijalankan dengan tepat pada waktu yang ditentukan. Hal ini karena keterlambatan
+sistem, ketidakstabilan jaringan, dan faktor lain dapat mempengaruhi waktu eksekusi.
+
+Oleh karena itu, sebaiknya gunakan set timeout dengan bijak dan selalu tes kode Anda
+pada kondisi yang berbeda untuk memastikan bahwa kode Anda berjalan dengan baik pada
+semua kondisi yang mungkin terjadi.
+
+
+Beberapa contoh fitur yang menggunakan setTimeout() di dalam JavaScript antara lain:
+- Menampilkan notifikasi atau pesan pop-up setelah jeda waktu tertentu. Contohnya, 
+  pada sebuah website e-commerce, setelah pengguna menambahkan produk ke keranjang 
+  belanja, kita dapat menampilkan notifikasi bahwa produk tersebut berhasil 
+  ditambahkan ke keranjang setelah beberapa detik menggunakan setTimeout().
+- Menjalankan animasi setelah jeda waktu tertentu. Contohnya, pada sebuah game, 
+  kita dapat menampilkan efek animasi seperti ledakan setelah beberapa detik 
+  menggunakan setTimeout().
+- Menampilkan slide show gambar pada sebuah website. Contohnya, kita dapat mengatur 
+  waktu jeda antara tampilan gambar pertama dan gambar kedua menggunakan setTimeout().
+- Menerapkan sistem auto-save pada sebuah aplikasi. Contohnya, pada sebuah editor 
+  teks, kita dapat menunggu beberapa detik setelah pengguna mengetik sebelum 
+  menyimpan perubahan yang dilakukan oleh pengguna menggunakan setTimeout().
